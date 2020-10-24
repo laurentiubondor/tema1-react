@@ -133,7 +133,7 @@ class FilterableProductTable extends React.Component {
 
   render() {
     return (
-      <div div className="ion">
+      <div div className="outborder">
         <SearchBar
           filterText={this.state.filterText}
           inStockOnly={this.state.inStockOnly}
